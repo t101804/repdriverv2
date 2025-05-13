@@ -26,5 +26,5 @@ A upgrade windows driver from v1 that use ioctl, now its using registry and with
 - Persistence mechanisms via registry auto-run values and service creation
 - Dynamic sleep/jitter scheduling to evade sandbox detection
 
-### 
-This Project is inspired by the `GsDriver`. you can check the base in https://github.com/781732825/GsDriver
+### Notes
+This Project is inspired by the `GsDriver`. this repository will be private after 50% features already implemented.
