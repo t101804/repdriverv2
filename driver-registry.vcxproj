@@ -130,12 +130,18 @@
     <FilesToPackage Include="$(TargetPath)" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Callback.cpp" />
     <ClCompile Include="DriverCore.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Callback.h" />
     <ClInclude Include="DriverCore.h" />
     <ClInclude Include="Native\Enums.h" />
+    <ClInclude Include="Native\Kernel.h" />
     <ClInclude Include="Native\Structs.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -12,9 +12,10 @@
 #include <netioddk.h>
 #include <ntstrsafe.h>
 
-// Native Kernel
+// Native Kernel & Windows
 #include "Native/Enums.h"
 #include "Native/Structs.h"
+#include "Native/Kernel.h"
 
 // Native Driver DbgPrint
 //#define DebugPrint(x) DbgPrintEx(DPFLTR_IHVDRIVER_ID, ULONG_MAX, x);

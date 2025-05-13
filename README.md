@@ -1,10 +1,10 @@
 # Repdriver-v2
 
-A upgrade windows driver from v1 that use ioctl, now its using registry and with a rich features
+A upgrade windows driver from v1 that use ioctl, with a rich features
 
 ## Goals
 - Core hooking logic remains flexible, allowing future transport layers (e.g., ALPC, named pipes) to be swapped in with minimal code changes
-- Designed to bypass modern kernel-level protections (ETW, callback hooks, PatchGuard) by leveraging registry callbacks as the trigger mechanism
+- Designed to bypass modern kernel-level protections (EAC,BE, Vanguard?, ETW, callback hooks, PatchGuard) by leveraging registry callbacks as the trigger mechanism
 
 ## Features (WIP)
 - Attach to processes by name
